@@ -23,9 +23,6 @@ namespace DesktopApp
             Assert.IsNotNull(sessionCalc);
             Console.WriteLine("✅ Calculator launched using Appium server.");
 
-            //WindowsDriver<WindowsElement> sessionCalc = null;
-            //sessionCalc = new WindowsDriver<WindowsElement>(new Uri("http://127.0.0.1:4723"), options);
-
             sessionCalc.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             var btnOne = sessionCalc.FindElementByName("One");
             var btnTwo = sessionCalc.FindElementByName("Two");
