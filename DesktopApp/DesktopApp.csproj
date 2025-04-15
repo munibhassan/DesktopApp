@@ -69,6 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlarmsAndClockSmokeTests.cs" />
     <Compile Include="CalculatorRunner.cs" />
     <Compile Include="CalculatorRunnerUsingAppium.cs" />
     <Compile Include="LaunchSplashScreenApp.cs" />
